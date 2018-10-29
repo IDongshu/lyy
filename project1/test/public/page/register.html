@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../stylesheets/signin.css" />
+        <link rel="stylesheet" type="text/css" href="../stylesheets/boostrap.min.css" />
+    </head>
+    <body class="text-center">
+        <div class="form-signin">
+            <img class="mb-4" src="../images/bootstrap-solid.svg" alt="" width="72" height="72">
+            <h1 class="h3 mb-3 font-weight-normal">Please register</h1>
+            <label for="inputName" class="sr-only">Username</label>
+            <input type="text" id="inputName" class="form-control" placeholder="Username"  autofocus="" >
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" >
+            <label for="confrimPassword" class="sr-only">Confirm password</label>
+            <input type="password" id="confrimPassword" class="form-control" placeholder="Confirm password" >
+            <label for="cellPhone" class="sr-only">Cell Phone</label>
+            <input type="text" id="cellPhone" class="form-control" placeholder="Cell Phone" >
+            <!-- required=""-->
+            <div class="tip form-control"></div>
+
+            <div class="checkbox mb-3">
+                <label>
+                    <input class="agree" type="checkbox" value="remember-me">
+                    I agree to the agreement
+                </label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+            <p class=" goto mb-3">已经注册,去<a href="http://localhost:3000/page/login.html">登录</a></p>
+            <p class="mt-5 mb-3 text-muted">© 2017-2018</p>
+        </div>
+
+        
+        <script type="text/javascript" src="../javascripts/jquery.js"></script>
+        <script type="text/javascript" src="../javascripts/register.js"></script>
+        
+    </body>
+</html>
